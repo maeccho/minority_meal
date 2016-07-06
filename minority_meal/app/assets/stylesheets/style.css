@@ -1,0 +1,52 @@
+body {
+  background-color: #f0f0f0;
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+
+header {
+  width: 300px;
+}
+
+.heading {
+  height: 70vh;
+  width: 300px;
+  background-color: #cccccc
+}
+
+.title {
+  font-family:  fantasy;
+}
+
+.heading-sentence {
+  font-size: 18px;
+}
+
+
+.navbar {
+height: 25vh;
+width: 300px;
+background-color: red;
+font-size: 18px;
+margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0px 0px 0px 60px;
+  list-style: none;
+}
+
+
+
+footer {
+  height: 50px;
+  background-color: green;
+}
