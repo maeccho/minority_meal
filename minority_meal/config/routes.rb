@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
-  root to: "top#index"
-  get 'tweets' => 'tweets#index'
-  get 'tweets/new' => 'tweets#new'
-  post 'tweets' => 'tweets#create'
-
+  root to:             "tweets#index"
+  get  'tweets'     => 'tweets#index'
+  get  'tweets/new' => 'tweets#new'
+  post 'tweets'     => 'tweets#create'
+  get  'users/:id'  => 'users#show'
 
 
   end
