@@ -19,7 +19,7 @@ header {
 .heading {
   height: 70vh;
   width: 300px;
-  background-color: #cccccc
+  background-image: url("assets/images/Montage_P1030569-Edit.jpg")
 }
 
 .title {
@@ -29,6 +29,12 @@ header {
 .heading-sentence {
   font-size: 18px;
 }
+
+/*top-image {
+ height: 70vh;
+  width: 300px;
+  background-color: white;
+}*/
 
 
 .navbar {
@@ -48,7 +54,8 @@ ul {
 
 
 .content_post{
-  float: right;
+ /* float: right;*/
+  background-repeat:no-repeat;
   background-color: yellow;
   height: 300px;
 }
@@ -76,6 +83,17 @@ height: 10vh;
 
 }
 
+
+.yield {
+  margin-left: 300px;
+}
+
+.background-image {
+  height: 50vh;
+  width: 300px;
+  background-repeat:no-repeat;
+  background-size: 300px 50vh;
+}
 
 
 footer {
